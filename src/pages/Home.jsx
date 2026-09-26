@@ -1,3 +1,5 @@
+import Projects from "../components/Projects";
+
 const Home = () => {
   const [datos, setDatos] = useState(datosIniciales);
 

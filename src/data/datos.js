@@ -26,7 +26,33 @@ const datos = {
     "Visual Studio",
   ],
 
-  proyectos: [],
+  proyectos: [
+    {
+      id: 1,
+      titulo: "Sistema de Soporte y Tickets",
+      estado: "Finalizado",
+      descripcion:
+        "Aplicación web cliente-servidor para crear, seguir y gestionar tickets de soporte.",
+      tecnologias: ["HTML", "CSS", "JavaScript", "JSON Server"],
+      rol: "Desarrollo colaborativo en equipo",
+      detalle:
+        "Proyecto integrador de Programación III. Colaboré en el diseño de la interfaz y programé la lógica asíncrona en JavaScript para consumir una API REST simulada con JSON Server, sin recargar la página.",
+      repositorio: "https://stocksystemutn.netlify.app/",
+    },
+
+    {
+      id: 2,
+      titulo: "Sistema de Gestión de Transporte",
+      estado: "En desarrollo",
+      descripcion:
+        "Aplicación para digitalizar la documentación y la facturación de una flota de vehículos.",
+      tecnologias: ["C#", "MySQL"],
+      rol: "Diseño de la base de datos y desarrollo",
+      detalle:
+        "Pensado para una empresa de transporte privado: reemplaza planillas y papeles por una base de datos relacional.",
+      repositorio: null,
+    },
+  ],
   contactos: [],
 };
 
