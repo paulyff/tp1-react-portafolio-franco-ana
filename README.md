@@ -1,16 +1,63 @@
-# React + Vite
+# Mi Portfolio en React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfolio personal desarrollado como Trabajo Práctico N.º 1 de la materia Programación IV.
 
-Currently, two official plugins are available:
+## Estudiante
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Ana Paula Franco**
 
-## React Compiler
+Estudiante de la Tecnicatura Universitaria en Programación de la UTN-FRT.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Descripción
 
-## Expanding the ESLint configuration
+Este proyecto consiste en un portfolio personal desarrollado con React y Vite.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+La aplicación presenta información sobre mi perfil, tecnologías y herramientas que utilizo, proyectos realizados y medios de contacto.
+
+El proyecto fue desarrollado utilizando componentes reutilizables, props, renderizado dinámico, eventos, estado y renderizado condicional.
+
+## Tecnologías utilizadas
+
+- React
+- JavaScript
+- HTML
+- CSS
+- Vite
+- Git
+- GitHub
+
+## Funcionalidades
+
+- Presentación personal.
+- Sección "Sobre mí".
+- Listado de tecnologías y herramientas.
+- Renderizado dinámico de proyectos.
+- Botón "Ver más / Ver menos" para mostrar información adicional de cada proyecto.
+- Sección de contacto.
+- Diseño responsive básico.
+
+## Instalación
+
+Clonar el repositorio:
+
+git clone https://github.com/paulyff/tp1-react-portafolio-franco-ana.git
+
+Ingresar a la carpeta del proyecto:
+
+cd tp1-react-portafolio-franco-ana
+
+Instalar las dependencias:
+
+npm install
+
+## Ejecutar el proyecto
+
+Para iniciar el proyecto localmente:
+
+npm run dev
+
+Luego abrir en el navegador la dirección indicada por Vite.
+
+## Repositorio
+
+https://github.com/paulyff/tp1-react-portafolio-franco-ana
