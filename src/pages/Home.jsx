@@ -1,10 +1,20 @@
-import React from "react";
-
 const Home = () => {
+  const [datos, setDatos] = useState(datosIniciales);
+
   return (
-    <div>
-      <h1>Home</h1>
-    </div>
+    <>
+      <Header nombre="Mi Portafolio" enlaces={datos.enlaces} />
+
+      <Hero
+        nombre={datos.persona.nombre}
+        titulo={datos.persona.titulo}
+        resumen={datos.persona.resumen}
+      />
+
+      <About texto={datos.sobreMi} />
+
+      <Skills tecnologias={datos.tecnologias} />
+    </>
   );
 };
 
