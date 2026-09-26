@@ -53,7 +53,17 @@ const datos = {
       repositorio: null,
     },
   ],
-  contactos: [],
+  contactos: [
+    {
+      nombre: "GitHub",
+      enlace: "https://github.com/paulyff",
+    },
+
+    {
+      nombre: "Email",
+      enlace: "mailto:pauli.franco998@gmail.com",
+    },
+  ],
 };
 
 export default datos;

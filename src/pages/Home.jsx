@@ -5,6 +5,7 @@ import About from "../components/About";
 import Skills from "../components/Skills";
 import Proyects from "../components/Proyects";
 import datosIniciales from "../data/datos";
+import Contact from "../components/Contact";
 
 const Home = () => {
   const [datos] = useState(datosIniciales);
@@ -24,6 +25,8 @@ const Home = () => {
       <Skills tecnologias={datos.tecnologias} />
 
       <Proyects proyectos={datos.proyectos} />
+
+      <Contact contactos={datos.contactos} />
     </>
   );
 };
