@@ -28,6 +28,7 @@ const Home = () => {
       <Proyects proyectos={datos.proyectos} />
 
       <Contact contactos={datos.contactos} />
+      <Footer />
     </>
   );
 };
