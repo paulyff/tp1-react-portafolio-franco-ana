@@ -1,7 +1,13 @@
-import Projects from "../components/Projects";
+import { useState } from "react";
+import Header from "../components/Header";
+import Hero from "../components/Hero";
+import About from "../components/About";
+import Skills from "../components/Skills";
+import Proyects from "../components/Proyects";
+import datosIniciales from "../data/datos";
 
 const Home = () => {
-  const [datos, setDatos] = useState(datosIniciales);
+  const [datos] = useState(datosIniciales);
 
   return (
     <>
@@ -16,6 +22,8 @@ const Home = () => {
       <About texto={datos.sobreMi} />
 
       <Skills tecnologias={datos.tecnologias} />
+
+      <Proyects proyectos={datos.proyectos} />
     </>
   );
 };

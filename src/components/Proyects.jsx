@@ -1,6 +1,6 @@
 import ProyectCard from "./ProyectCard";
 
-const Projects = ({ proyectos }) => {
+const Proyects = ({ proyectos }) => {
   return (
     <div className="seccion" id="Proyectos">
       <h2>Proyectos</h2>
@@ -12,4 +12,4 @@ const Projects = ({ proyectos }) => {
   );
 };
 
-export default Projects;
+export default Proyects;
